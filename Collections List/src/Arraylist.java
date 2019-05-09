@@ -53,7 +53,7 @@ public class Arraylist {
 			
 		}
 		}while(ch<4);
-			
+System.out.println("\nProgramm Terminated..");		
 
 	}
 
