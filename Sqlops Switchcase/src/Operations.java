@@ -34,6 +34,7 @@ public void delete() throws SQLException {
 	PreparedStatement ps=con.prepareStatement(q);
 	ps.setInt(1, i);
 	int j=ps.executeUpdate();
+	System.out.println("\nRows Affected:" +j);
 }
 public void update() throws SQLException {
 	String name,address;
